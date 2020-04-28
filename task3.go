@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	fmt.Println("===================Dibawah Merupakan Tugas Membedakan Isi 2 Array========================")
+	fmt.Println("===================Dibawah Merupakan Tugas Slice Array========================")
 	tugas3()
 	fmt.Println("=========================================================================================")
 }
