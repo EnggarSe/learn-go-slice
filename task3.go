@@ -12,10 +12,10 @@ func main() {
 
 func tugas3() {
 	array1 := make([]int, 0)
-	maksimal := 100
-	for i := 1; i < maksimal; i++ {
+	maksimal := 30
+	for i := 1; i <= maksimal; i++ {
 		count := 0
-		for y := 1; y < maksimal; y++ {
+		for y := 1; y <= i; y++ {
 			if i%y == 0 {
 				count++
 			}
@@ -23,7 +23,6 @@ func tugas3() {
 		if count == 2 && i > 1 {
 			array1 = append(array1, i)
 		}
-
 	}
 	fmt.Println(array1)
 }
